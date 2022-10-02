@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\Services",
+    "\\src\\Services\\Catalog"
   ],
+  "SelectedNode": "\\src\\aspnet-runmicroservice.sln",
   "PreviewInSolutionExplorer": false
 }
