@@ -6,3 +6,5 @@
 /src/Services/Catalog/Catalog.API/bin/Debug/net5.0
 /src/.vs/aspnet-runmicroservice/DesignTimeBuild
 /src/obj
+/src/Services/Basket/Basket.API/bin/Debug/net5.0
+/src/Services/Basket/Basket.API/obj
