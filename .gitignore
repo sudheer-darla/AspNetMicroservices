@@ -11,3 +11,5 @@
 /src/Services/Discount/Discount.API/bin/Debug/net5.0
 /src/Services/Discount/Discount.API/obj
 /src/.vs/aspnet-runmicroservice/FileContentIndex
+/src/Services/Discount/Discount.Grpc/bin/Debug/net5.0
+/src/Services/Discount/Discount.Grpc/obj
