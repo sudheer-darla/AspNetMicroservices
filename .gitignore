@@ -15,3 +15,8 @@
 /src/Services/Discount/Discount.Grpc/obj
 /src/Services/Ordering/Ordering.API/bin/Debug/net5.0
 /src/Services/Ordering/Ordering.API/obj
+/src/Services/Ordering/Ordering.Application/bin/Debug/net5.0
+/src/Services/Ordering/Ordering.Application/obj
+/src/Services/Ordering/Ordering.Domain/bin/Debug/net5.0
+/src/Services/Ordering/Ordering.Domain/obj
+/src/Services/Ordering/Ordering.Infrastructure/obj
