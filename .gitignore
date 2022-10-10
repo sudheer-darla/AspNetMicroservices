@@ -13,3 +13,5 @@
 /src/.vs/aspnet-runmicroservice/FileContentIndex
 /src/Services/Discount/Discount.Grpc/bin/Debug/net5.0
 /src/Services/Discount/Discount.Grpc/obj
+/src/Services/Ordering/Ordering.API/bin/Debug/net5.0
+/src/Services/Ordering/Ordering.API/obj
