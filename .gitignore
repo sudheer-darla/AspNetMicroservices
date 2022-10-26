@@ -21,3 +21,4 @@
 /src/Services/Ordering/Ordering.Domain/obj
 /src/Services/Ordering/Ordering.Infrastructure/obj
 /src/Services/Ordering/Ordering.Infrastructure/bin/Debug/net5.0
+/src/bin/Debug
