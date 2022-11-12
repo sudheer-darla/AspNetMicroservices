@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Ordering.API.Extensions;
 using Ordering.Infrastructure.Persistence;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Ordering.API
 {
@@ -15,10 +15,10 @@ namespace Ordering.API
                 .Build()
                 .MigrateDatabase<OrderContext>((context, services) =>
                 {
-                    var logger = services.GetRequiredService<ILogger<OrderContextSeed>>();
+                    var logger = services.GetService<ILogger<OrderContextSeed>>();
                     OrderContextSeed
-                            .SendAsync(context, (ILogger<OrderContext>)logger)
-                            .Wait();
+                        .SeedAsync(context, logger)
+                        .Wait();
                 })
                 .Run();
         }
